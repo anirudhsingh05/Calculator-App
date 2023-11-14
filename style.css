@@ -14,63 +14,32 @@ body {
 }
 
 .answer-screen {
-    font-size: 40px;
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
-    padding: 25px 10px;
+    padding: 25px 15px;
 }
 
 .calc-button {
-    background-color: antiquewhite;
+    background-color: rgb(38, 34, 34);
+    color: antiquewhite;
     height: 100px;
-    width: 24%;
+    width: 20%;
     border: none;
     font-size: 40px;
-    border-radius: 50%;
-    margin: 1px;
+    border-radius: 0;
+    margin: 5px 10px;
     cursor: pointer;
 }
 
 .calc-button:last-child {
-    background-color: aquamarine;
+    color: aquamarine;
 }
 
-/*  
-.answer-screen {
-    height: 40px;
-    width: 220px;
-    background-color: black;
-    border-bottom: 1px solid grey;
-    color: azure;
-    font-size: 25px;
-    text-align: right;
-    padding: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.calc-button {
-    background: none;
-    color: yellow;
-    border-radius: 50%;
-    margin: 10px;
-    height: 30px;
-    width: 30px;
-    background: none;
-    border: 1px solid gray;
-    font: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    cursor: pointer;
-}
-
-.calc-button:last-child {
-    color: rgba(0, 255, 255, 0.848);
-}
-
-#blue {
-    background-color: aqua;
-    color: black;   
+.calc-button:active {
+    background-color: grey;
 }
 
 .double {
-    width: 38%;
-} */
+    width: 45%;
+}
