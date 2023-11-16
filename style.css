@@ -36,6 +36,11 @@ body {
     color: aquamarine;
 }
 
+.calc-button:hover {
+    background-color: black;
+    border: 1px solid aquamarine;
+}
+
 .calc-button:active {
     background-color: grey;
 }
