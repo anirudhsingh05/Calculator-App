@@ -38,7 +38,7 @@ function handleMath(value) {
         return;
     }
 
-    const intBuffer = parseInt(buffer);
+    const intBuffer = parseFloat(buffer);
     if(runningTotal === 0){
         runningTotal = intBuffer;
     } else {
@@ -74,6 +74,9 @@ function handleSymbol(symbol){
         case 'x':
         case '-':
             handleMath(symbol);
+            break;
+        case '.':
+            buffer += '.';
             break;
     }
 }
